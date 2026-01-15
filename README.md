@@ -101,3 +101,86 @@ Cada **branch** representa um **módulo didático + evolução real do sistema**
 > ⚠️ A branch `main` representa a **obra final**: um ERP funcional, modular, documentado e **pronto para produção**.
 
 ---
+🔹 2. Escolher o módulo de estudo
+Cada branch representa o estado exato do código em um módulo do livro:
+
+bash
+1234567
+# Módulo 1: Fundamentos Conceituais e Configuração Técnica
+git checkout modulo-1-conceitos
+
+# Módulo 2: Construção Guiada do Núcleo Funcional (MVC Completo)
+git checkout modulo-2-mvc-completo
+
+# Demais módulos seguem convenção similar (modulo-3..., modulo-4...)
+✅ Dica: Consulte as branches disponíveis com git branch -r.
+
+🔹 3. Instalar dependências
+bash
+1
+composer install
+🔹 4. Configurar ambiente
+bash
+1
+cp .env.example .env
+Edite o arquivo .env com suas credenciais locais (banco de dados, chaves de API, etc.).
+
+🔹 5. Iniciar com Docker
+O projeto utiliza um ambiente containerizado para garantir consistência entre desenvolvimento e produção:
+
+bash
+1
+docker-compose up -d
+⚠️ Certifique-se de ter o Docker e o Docker Compose instalados.
+
+🔹 6. Acessar a aplicação
+Abra seu navegador em:
+👉 http://localhost
+
+Pronto! Você está executando uma versão funcional do sistema comercial com base no módulo escolhido.
+
+🧩 Público-Alvo
+Este projeto foi criado especialmente para:
+
+🎓 Estudantes de TI e cursos técnicos que buscam prática realista
+🧑‍💻 Autodidatas em transição para carreira profissional
+👩‍🏫 Professores que desejam material didático atualizado, legalmente alinhado e acessível
+💼 Desenvolvedores iniciantes e intermediários que querem dominar sistemas corporativos
+🏢 Profissionais de outras áreas migrando para automação comercial e ERP
+🏫 Equipes pedagógicas de ensino técnico e superior
+📜 Licença e Filosofia
+Este é um projeto educacional, técnico e social, idealizado para:
+
+Democratizar o ensino de engenharia de software aplicada
+Formar profissionais éticos, legalmente conscientes e tecnicamente competentes
+Reduzir a lacuna entre teoria acadêmica e prática profissional
+Respeitar leis brasileiras (LGPD, NF-e, acessibilidade), pessoas e contextos regionais
+📄 Licença: MIT License
+→ Use, modifique, distribua e ensine livremente — inclusive em sala de aula ou projetos comerciais.
+
+✍️ Autor
+Alex Correia da Silva
+De Pastos Bons, Maranhão 🇧🇷
+
+Pesquisador independente em engenharia de software, sistemas fiscais e educação tecnológica
+Autor do livro ConstruaSeuERP — Um Guia Prático para Criar um Sistema Comercial Completo com PHP e MySQL
+Defensor da tecnologia como ferramenta de justiça social e desenvolvimento local
+Especialista em digitalização de negócios, compliance legal e acessibilidade web (WCAG 2.2)
+🌐 Site Pessoal
+📧 Contato: alexsilva2018@gmail.com
+📚 GitHub
+
+🧠 Conclusão Técnica
+O ConstruaSeuERP não é “mais um sisteminha em PHP”.
+
+Ele é:
+
+🔬 Um laboratório de engenharia de software aplicada
+📚 Um modelo didático progressivo, baseado em teorias cognitivas (Piaget, Vygotsky)
+🏭 Um protótipo de ERP brasileiro realista, com NF-e, LGPD, estoque, financeiro e e-commerce
+❤️ Uma obra técnica com responsabilidade legal, social e pedagógica
+Feito com propósito em Pastos Bons, Maranhão — para o Brasil inteiro.
+
+💡 Contribuições são bem-vindas!
+Encontrou um bug? Tem uma sugestão pedagógica? Abra uma issue ou envie um pull request.
+Juntos, podemos tornar o ensino de tecnologia mais justo, inclusivo e eficaz.
