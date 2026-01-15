@@ -134,17 +134,19 @@ cp .env.example .env
 ###🔹 6. Acessar
 Abra seu navegador em:
 👉 http://localhost
+
 ---
+
 ##🧩 Público-Alvo
 Este projeto é indicado para:
 
-🎓 Estudantes de TI e cursos técnicos
-🧑‍💻 Autodidatas em busca de formação profissional
-👩‍🏫 Professores que desejam material didático realista
-💼 Desenvolvedores iniciantes e intermediários
-🏢 Profissionais que querem migrar para sistemas corporativos
-🏫 Equipes de ensino técnico e superior
-📜 Licença e Filosofia
+-🎓 Estudantes de TI e cursos técnicos
+-🧑‍💻 Autodidatas em busca de formação profissional
+-👩‍🏫 Professores que desejam material didático realista
+-💼 Desenvolvedores iniciantes e intermediários
+-🏢 Profissionais que querem migrar para sistemas corporativos
+-🏫 Equipes de ensino técnico e superior
+-📜 Licença e Filosofia
 Este projeto é educacional, técnico e social.
 Foi idealizado para:
 
@@ -153,6 +155,8 @@ Formar profissionais conscientes e éticos
 Reduzir a distância entre teoria e prática
 Respeitar leis, pessoas e acessibilidade
 Licença: MIT License — use, modifique, distribua e ensine livremente.
+
+---
 
 ✍️ Autor
 Alex Correia da Silva
