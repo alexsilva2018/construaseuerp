@@ -108,34 +108,34 @@ Cada **branch** representa um **módulo didático + evolução real do sistema**
 ```bash
 git clone https://github.com/alexcsilva/construaseuerp.git
 cd construaseuerp
-🔹 2. Escolher o módulo de estudo
-bash
+### 🔹 2. Escolher o módulo de estudo
+```bash
 1
 git checkout modulo-1-conceitos
 ou
 
-bash
+```bash
 1
 git checkout modulo-2-mvc-completo
 ✅ Cada branch contém o estado exato do projeto naquele capítulo do livro.
 
-🔹 3. Instalar dependências
-bash
+###🔹 3. Instalar dependências
+```bash
 1
 composer install
-🔹 4. Configurar ambiente
-bash
+###🔹 4. Configurar ambiente
+```bash
 12
 cp .env.example .env
 # Edite .env com suas credenciais
-🔹 5. Iniciar com Docker
-bash
+###🔹 5. Iniciar com Docker
+```bash
 12
-🔹 6. Acessar
+###🔹 6. Acessar
 Abra seu navegador em:
 👉 http://localhost
-
-🧩 Público-Alvo
+---
+##🧩 Público-Alvo
 Este projeto é indicado para:
 
 🎓 Estudantes de TI e cursos técnicos
@@ -157,8 +157,7 @@ Licença: MIT License — use, modifique, distribua e ensine livremente.
 ✍️ Autor
 Alex Correia da Silva
 
-Presidente do CACS-FUNDEB (Pastos Bons, MA)
-Head do Centro de Processamento de Dados (CPD) da Prefeitura Municipal de Pastos Bons
+de Pastos Bons
 Pesquisador independente em engenharia de software, sistemas fiscais e educação tecnológica
 Autor do livro ConstruaSeuERP
 Defensor da tecnologia como ferramenta de justiça social e desenvolvimento local
